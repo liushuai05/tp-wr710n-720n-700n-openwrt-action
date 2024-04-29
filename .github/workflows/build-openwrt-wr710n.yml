@@ -135,7 +135,7 @@ jobs:
       if: (github.event.inputs.ssh == 'false')
       run: |
         cd openwrt
-        ls build_dir/host/m4-1.4.17/lib
+        #ls build_dir/host/m4-1.4.17/lib
         echo -e "$(nproc) thread compile"
         #make -j$(nproc) || make -j1 || make -j1 V=s
         make -j1 V=s
