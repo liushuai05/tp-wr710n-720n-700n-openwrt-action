@@ -22,7 +22,7 @@ on:
 env:
   #REPO_URL: https://github.com/coolsnowwolf/openwrt.git
   #REPO_BRANCH: v17.01.2
-  REPO_URL: https://gitee.com/liushuai05/openwrt.git
+  REPO_URL: https://github.com/liushuai05/openwrt
   REPO_BRANCH: v17
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: 20200415.config
