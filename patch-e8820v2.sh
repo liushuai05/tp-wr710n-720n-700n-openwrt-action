@@ -206,4 +206,7 @@ sed -i '$ a\\ndefine Device/zte_e8820v2\
 endef\
 TARGET_DEVICES += zte_e8820v2' ./target/linux/ramips/image/mt7621.mk
 
-
+#解决报错参考如下
+#https://www.cnblogs.com/dakewei/p/10573465.html->https://www.cnblogs.com/dakewei/p/10573446.html
+#https://github.com/dudanov/source/commit/e7d44a5d5d5b48570fe3e4a3c08b73b7a3f58dc3
+#sed 's/原始字符串/替换字符串/g' 文件名
