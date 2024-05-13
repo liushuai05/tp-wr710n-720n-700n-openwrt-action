@@ -25,8 +25,11 @@ env:
   #REPO_URL: https://github.com/liushuai05/openwrt
   #REPO_BRANCH: v17
 
-  REPO_URL: https://github.com/coolsnowwolf/lede
-  REPO_BRANCH: 20200408
+  #REPO_URL: https://github.com/coolsnowwolf/lede
+  #REPO_BRANCH: 20200408
+
+  REPO_URL: https://github.com/openwrt/openwrt
+  REPO_BRANCH: v19.07.10
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: 20200416.config
   DIY_P1_SH: diy-part1.sh
